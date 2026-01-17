@@ -31,7 +31,7 @@ A secure password manager written in C with AES-256-GCM encryption.
 
 Clone the repository:
 ```
-git clone https://github.com/yourusername/password-manager.git
+git clone https://github.com/val3yne/password-manager.git
 cd password-manager
 ```
 
@@ -47,7 +47,7 @@ Run the program:
 ./vault
 ```
 
-On first run, create a master password (minimum 8 characters).
+On first run, create a password (minimum 8 characters).
 
 ## Technical Details
 
@@ -66,10 +66,9 @@ On first run, create a master password (minimum 8 characters).
 
 ## Important
 
-- Keep your master password secure
-- Backup vault.salt and vault.master files
 - Do not share passwords.dat without the salt file
 - Losing master password means losing all data
+
 
 
 
